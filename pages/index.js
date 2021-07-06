@@ -10,7 +10,7 @@ export default function Home() {
 			targets: '#initials path',
 			strokeDashoffset: [anime.setDashoffset, 0],
 			easing: 'easeInOutSine',
-			// fill: {value: '#000', delay: anime.stagger(300, {start: 1300})},
+			fill: {value: '#000', delay: anime.stagger(300, {start: 1300})},
 			duration: 2000,
 			delay: anime.stagger(300, {start: 500}),
 			direction: 'normal'
