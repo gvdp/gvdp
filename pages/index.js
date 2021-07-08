@@ -22,8 +22,8 @@ export default function Home() {
 	return (
 		<div className="flex flex-col items-center justify-center min-h-screen py-2">
 			<Head>
-				<title>Gvdp</title>
-				<link rel="icon" href="/favicon.ico"/>
+				<title>Glenn Van De Putte</title>
+				<link rel="icon" href="/logo.svg"/>
 			</Head>
 
 			<main className="flex flex-col items-center justify-around flex-1">
