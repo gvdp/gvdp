@@ -28,13 +28,26 @@ export default function Home() {
 		})
 	}, [])
 
+	const description = 'Personal website for Glenn Van De Putte.'
 	return (
 		<div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-300">
 			<Head>
 				<title>Glenn Van De Putte</title>
 				<link rel="icon" href="/logo.svg"/>
-				<meta name="description" content="Personal website for Glenn Van De Putte."/>
+				<meta name="description" content={description}/>
 				<meta name="google-site-verification" content="Pj1ATvoL2tXCTzxzxr9aG_u73AjTkwjFbXsmm0P9hPw" />
+
+				{/* Twitter */}
+				<meta name="twitter:card" content="Glenn's Homepage" key="twcard" />
+				<meta name="twitter:creator" content={'vdpglenn'} key="twhandle" />
+
+				{/* Open Graph */}
+				<meta property="og:url" content={'https://www.gvdp.be'} key="ogurl" />
+				<meta property="og:type" content="website" />
+				<meta property="og:image" content={"/logo.svg"} key="ogimage" />
+				<meta property="og:site_name" content={'https://gvdp.be/logo.svg'} key="ogsitename" />
+				<meta property="og:title" content={'Glenn Van De Putte'} key="ogtitle" />
+				<meta property="og:description" content={description} key="ogdesc" />
 			</Head>
 
 			<main className="flex flex-col items-center justify-around flex-1 container">
