@@ -6,21 +6,30 @@ import anime from 'animejs'
 export default function Home() {
 
 	useEffect(() => {
-		anime({
+
+		var tl = anime.timeline({
+			easing: 'easeInOutSine',
+			duration: 3000,
+		})
+
+		tl.add({
 			targets: '#initials path',
 			strokeDashoffset: [anime.setDashoffset, 0],
-			easing: 'easeInOutSine',
 			fill: {
 				value: '#000',
 				delay: anime.stagger(500, {start: 2000}),
 			},
-			duration: 3000,
 			delay: anime.stagger(400, {start: 300}),
+		})
+
+		tl.add({
+			targets: '#link-icons',
+			height: ['0', '50px'],
 		})
 	}, [])
 
 	return (
-		<div className="flex flex-col items-center justify-center min-h-screen py-2">
+		<div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-300">
 			<Head>
 				<title>Glenn Van De Putte</title>
 				<link rel="icon" href="/logo.svg"/>
@@ -48,7 +57,7 @@ export default function Home() {
 											strokeWidth={'4'} stroke={'black'}/>
 				</svg>
 
-				<div className={'flex justify-center'}>
+				<div className={'flex justify-center items-center overflow-hidden'} id={'link-icons'}>
 					<a href='https://github.com/gvdp'>
 						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path
@@ -78,20 +87,8 @@ export default function Home() {
 						</svg>
 					</a>
 				</div>
-
 			</main>
 
-			<footer className="flex items-center justify-center w-full h-12 border-t">
-				<a
-					className="flex items-center justify-center"
-					href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Powered by{' '}
-					<img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2"/>
-				</a>
-			</footer>
 		</div>
 	)
 }
