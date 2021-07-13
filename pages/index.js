@@ -33,6 +33,8 @@ export default function Home() {
 			<Head>
 				<title>Glenn Van De Putte</title>
 				<link rel="icon" href="/logo.svg"/>
+				<meta name="description" content="Personal website for Glenn Van De Putte."/>
+				<meta name="google-site-verification" content="Pj1ATvoL2tXCTzxzxr9aG_u73AjTkwjFbXsmm0P9hPw" />
 			</Head>
 
 			<main className="flex flex-col items-center justify-around flex-1">
