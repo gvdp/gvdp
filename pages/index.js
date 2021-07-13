@@ -44,8 +44,8 @@ export default function Home() {
 				{/* Open Graph */}
 				<meta property="og:url" content={'https://www.gvdp.be'} key="ogurl" />
 				<meta property="og:type" content="website" />
-				<meta property="og:image" content={"/logo.svg"} key="ogimage" />
-				<meta property="og:site_name" content={'https://gvdp.be/logo.svg'} key="ogsitename" />
+				<meta property="og:image" content={"https://gvdp.be/logo.svg"} key="ogimage" />
+				<meta property="og:site_name" content={'gvdp.be'} key="ogsitename" />
 				<meta property="og:title" content={'Glenn Van De Putte'} key="ogtitle" />
 				<meta property="og:description" content={description} key="ogdesc" />
 			</Head>
