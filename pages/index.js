@@ -23,6 +23,9 @@ export default function Home() {
 		})
 
 		tl.add({
+			easing: 'linear',
+			delay: 500,
+			duration: 1500,
 			targets: '#link-icons',
 			height: ['0', '50px'],
 		})
