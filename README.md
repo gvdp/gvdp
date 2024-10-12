@@ -1,21 +1,11 @@
-# Next.js + Tailwind CSS Example
+# About Me
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+A software engineer dedicated to crafting seamless digital experiences. 
 
-## Deploy your own
+I’m **Glenn**, a frontend developer hailing from Antwerp, with a passion for using Ember.js, React, and a dash of ingenuity. My journey in tech has taken me from a start in manual testing through test automation into building web applications that perform as well as they look.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+With a **Bachelor of Science in Physics** from *Universiteit Antwerpen*, I bring a strong analytical mindset to my work. My fascination with science and technology fuels my approach to problem-solving and innovation in software development. Whether I’m exploring complex algorithms or delving into the latest tech trends, my background in physics enhances my ability to think critically and creatively.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+I’ve worked with companies like Verhaert, Bagaar and Ordina, tackling everything from frontend and backend development to streamlining and automating testing processes. When I’m not coding, you’ll likely find me strumming a guitar, hitting the soccer field, jogging through the beautiful streets of Antwerp, or soaking up the vibrant music scene at concerts.
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Oh, and in case you’re wondering, yes—this "About" section was indeed co-written by a large language model. But hey, I provided all the substance; it just helped with the wording!
