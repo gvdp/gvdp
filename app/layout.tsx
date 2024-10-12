@@ -39,7 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </Head>
       <body>
         <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-300">
-          <main className="flex flex-col items-center justify-around flex-1 container">{children}</main>
+          <main className="flex flex-col items-center justify-around flex-1 container py-10 px-20">{children}</main>
         </div>
       </body>
     </html>

@@ -3,7 +3,8 @@
 **🌐 Frontend Developer**  
 📍 *Antwerp, Belgium*  
 
-✉️ [vdputteglenn@gmail.com](mailto:vdputteglenn@gmail.com) 
+<!-- todo: make this the envelope emoji -->
+📬 [vdputteglenn@gmail.com](mailto:vdputteglenn@gmail.com) 
 
 🔗 [LinkedIn](https://www.linkedin.com/in/glenn-van-de-putte)
 
