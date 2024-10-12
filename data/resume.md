@@ -22,7 +22,7 @@ Experienced **Software Engineer** with a strong background in the information te
 
 ## 💼 **Experience**
 
-### **Verhaert | Digital Innovation**  
+### **Verhaert | Digital Innovation (Formerly Bagaar)**  
 **Frontend Developer**  
 *December 2021 - Present (2 years 11 months)*  
 📍 *Antwerp, Flemish Region, Belgium*  
