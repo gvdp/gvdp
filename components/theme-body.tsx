@@ -1,18 +1,27 @@
 'use client'
 
-import { FC, PropsWithChildren, useState } from 'react'
-// import { useLocalStorage } from 'usehooks-ts'
+import { FC, PropsWithChildren, useEffect, useState } from 'react'
+import { useLocalStorage } from 'usehooks-ts'
 
 const themes = ['default', 'theme-doenker']
 
 export const ThemeBody: FC<PropsWithChildren> = ({ children }) => {
-  // todo: save this state between reloads, now fails because server and client render differ
-  // const [theme, setTheme] = useLocalStorage('theme', 'default')
-  const [theme, setTheme] = useState('default')
+  const [rememberedTheme, setRememberedTheme] = useLocalStorage('theme', 'default')
+  const [theme, setTheme] = useState<string>()
 
   const switchTheme = () => {
-    setTheme(() => themes[(themes.indexOf(theme) + 1) % themes.length])
+    const newTheme = themes[(themes.indexOf(rememberedTheme) + 1) % themes.length]
+    setRememberedTheme(newTheme)
   }
+
+  useEffect(() => {
+    setTheme(rememberedTheme)
+  }, [rememberedTheme])
+
+  if (!theme) {
+    return <body></body>
+  }
+
   return (
     <body className={theme}>
       <button
