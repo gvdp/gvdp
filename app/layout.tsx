@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import '../styles/globals.css'
 import Head from 'next/head'
+import { ThemeBody } from '../components/theme-body'
 
 export const metadata: Metadata = {
   title: 'Glenn Van De Putte',
@@ -37,11 +38,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <></>
         )}
       </Head>
-      <body>
-        <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-300">
+      <ThemeBody>
+        <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-secondary">
           <main className="flex flex-col items-center justify-around flex-1 container py-10 px-20">{children}</main>
         </div>
-      </body>
+      </ThemeBody>
     </html>
   )
 }
