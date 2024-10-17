@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       animejs:
-        specifier: ^3.2.1
+        specifier: 3.2.2
         version: 3.2.2
       autoprefixer:
         specifier: 10.4.20
