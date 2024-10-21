@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "0.5.15",
-    "@types/node": "22.7.5",
+    "@types/node": "22.7.6",
     "@types/react": "18.3.11",
     "marked": "14.1.2",
     "tailwindcss-themer": "4.0.0",
