@@ -27,7 +27,7 @@ export const ThemeBody: FC<PropsWithChildren> = ({ children }) => {
       <button
         onClick={switchTheme}
         type="button"
-        className="fixed left-4 top-4 w-6 h-6 rounded bg-primary text-secondary p-1 text-center hover:animate-ping"
+        className="fixed left-4 top-4 w-6 h-6 rounded bg-primary text-secondary p-1 text-center active:animate-ping"
         title="Change theme"
       >
         <svg
