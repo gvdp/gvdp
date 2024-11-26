@@ -18,12 +18,12 @@
   },
   "packageManager": "pnpm@9.5.0",
   "volta": {
-    "node": "20.18.1",
+    "node": "22.11.0",
     "pnpm": "9.5.0"
   },
   "devDependencies": {
     "@tailwindcss/typography": "0.5.15",
-    "@types/node": "22.8.0",
+    "@types/node": "22.9.3",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "marked": "15.0.2",
     "tailwindcss-themer": "4.1.0",
