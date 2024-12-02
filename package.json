@@ -26,7 +26,7 @@
     "@types/node": "22.9.3",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "marked": "15.0.2",
-    "tailwindcss-themer": "4.1.0",
+    "tailwindcss-themer": "4.1.1",
     "typescript": "5.6.3",
     "usehooks-ts": "3.1.0"
   },
