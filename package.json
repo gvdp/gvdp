@@ -25,7 +25,7 @@
     "@tailwindcss/typography": "0.5.15",
     "@types/node": "22.10.2",
     "@types/react": "npm:types-react@19.0.0-rc.1",
-    "marked": "15.0.4",
+    "marked": "15.0.5",
     "tailwindcss-themer": "4.1.1",
     "typescript": "5.7.2",
     "usehooks-ts": "3.1.0"
