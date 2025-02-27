@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import '../styles/globals.css'
+import '../styles/app.css'
 import Head from 'next/head'
 import { ThemeBody } from '../components/theme-body'
 
