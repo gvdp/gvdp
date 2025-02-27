@@ -1,0 +1,78 @@
+
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/typography';
+@config "../tailwind.config.js";
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+@theme inline {
+  --color-*: initial;
+  --color-primary: var(--theme-color-primary);
+  --color-secondary: var(--theme-color-secondary);
+  --color-prose: var(--theme-color-prose);
+  --color-prose-secondary: var(--theme-color-prose-secondary);
+
+   /* todo: these are all system fonts, possibly add another local or web font */
+  --font-serif: 'ui-serif, "Times New Roman", serif';
+  --font-mono: '"Nimbus Mono PS", "Courier New", monospace';
+  --font-sans: 'Optima, Candara, "Noto Sans", source-sans-pro, sans-serif';
+}
+
+:root {
+
+  font-size: 112.5%; /* = 18px */
+  line-height: 1.5; /* 1.5 × font-size */
+
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+
+  .default {
+    --theme-color-primary: #0d9488;
+    --theme-color-secondary: #bae6fd;
+    --theme-color-prose: #475569;
+    --theme-color-prose-secondary: #0f172a;
+  }
+
+  .theme-doenker {
+    --theme-color-primary: #e0f2fe;
+    --theme-color-secondary: #155e75;
+    --theme-color-prose: #e2e8f0;
+    --theme-color-prose-secondary: #1f2937;
+  }
+}
+
+
+
+.prose h1,h2,h3,h4,h5,h6 {
+  @apply font-serif
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/* todo: play with letter tracking https://sinja.io/blog/web-typography-quick-guide#play-with-tracking */
