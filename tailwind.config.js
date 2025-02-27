@@ -25,31 +25,31 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require('tailwindcss-themer')({
-      defaultTheme: {
-        extend: {
-          colors: {
-            primary: '#0d9488',
-            secondary: '#bae6fd',
-            prose: '#475569',
-            proseSecondary: '#0f172a',
-          },
-        },
-      },
-      themes: [
-        {
-          name: 'doenker',
-          selectors: ['.theme-doenker'],
-          extend: {
-            colors: {
-              primary: '#e0f2fe',
-              secondary: '#155e75',
-              prose: '#e2e8f0',
-              proseSecondary: '#1f2937',
-            },
-          },
-        },
-      ],
-    }),
+    // require('tailwindcss-themer')({
+    //   defaultTheme: {
+    //     extend: {
+    //       colors: {
+    //         primary: '#0d9488',
+    //         secondary: '#bae6fd',
+    //         prose: '#475569',
+    //         proseSecondary: '#0f172a',
+    //       },
+    //     },
+    //   },
+    //   themes: [
+    //     {
+    //       name: 'doenker',
+    //       selectors: ['.theme-doenker'],
+    //       extend: {
+    //         colors: {
+    //           primary: '#e0f2fe',
+    //           secondary: '#155e75',
+    //           prose: '#e2e8f0',
+    //           proseSecondary: '#1f2937',
+    //         },
+    //       },
+    //     },
+    //   ],
+    // }),
   ],
 }
