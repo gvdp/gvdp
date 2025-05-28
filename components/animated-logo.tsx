@@ -1,19 +1,15 @@
 'use client'
 
 import { useEffect } from 'react'
-import anime from 'animejs'
+import { animate, svg, stagger } from 'animejs'
 
 export const AnimatedLogo = () => {
   useEffect(() => {
-    var tl = anime.timeline({
-      easing: 'easeInOutSine',
+    animate(svg.createDrawable('#initials path'), {
+      ease: 'easeInOutSine',
       duration: 3000,
-    })
-
-    tl.add({
-      targets: '#initials path',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      delay: anime.stagger(400, { start: 100 }),
+      draw: '0 1',
+      delay: stagger(400, { start: 100 }),
     })
   }, [])
 
