@@ -28,3 +28,5 @@
 # vercel
 .vercel
 /.idea/
+
+__site

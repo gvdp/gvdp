@@ -1,3 +1,9 @@
+---
+layout: layout.html
+title: Resume
+---
+
+
 # **Glenn Van De Putte**  
 
 **🌐 Frontend Developer**  

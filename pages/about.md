@@ -1,3 +1,8 @@
+---
+layout: layout.html
+title: About Me
+---
+
 # About Me
 
 A software engineer dedicated to crafting seamless digital experiences. 

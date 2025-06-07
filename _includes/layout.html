@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' }}" />
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <div class="flex flex-col items-center justify-center min-h-screen py-2 bg-secondary">
+      <main class="flex flex-col items-center justify-around flex-1 container py-10 px-20">
+        <section class="prose prose-themed text-prose font-mono max-w-[800px]">{{content}}</section>
+      </main>
+    </div>
+  </body>
+</html>
