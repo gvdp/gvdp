@@ -31,8 +31,8 @@ importers:
         specifier: 0.5.16
         version: 0.5.16(tailwindcss@4.1.7)
       '@types/node':
-        specifier: 22.15.21
-        version: 22.15.21
+        specifier: 22.16.5
+        version: 22.16.5
       npm-run-all:
         specifier: 4.1.5
         version: 4.1.5
@@ -380,8 +380,8 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1'
 
-  '@types/node@22.15.21':
-    resolution: {integrity: sha512-EV/37Td6c+MgKAbkcLG6vqZ2zEYHD7bvSrzqqs2RIhbA6w3x+Dqz8MZM3sP6kGTeLrdoOgKZe+Xja7tUB2DNkQ==}
+  '@types/node@22.16.5':
+    resolution: {integrity: sha512-bJFoMATwIGaxxx8VJPeM8TonI8t579oRvgAuT8zFugJsJZgzqv0Fu8Mhp68iecjzG7cnN3mO2dJQ5uUM2EFrgQ==}
 
   a-sync-waterfall@1.0.1:
     resolution: {integrity: sha512-RYTOHHdWipFUliRFMCS4X2Yn2X8M87V/OpSqWzKKOGhzqyUxzyVmhHDH9sAvG+ZuQf/TAOFsLCpMw09I1ufUnA==}
@@ -1896,7 +1896,7 @@ snapshots:
       postcss-selector-parser: 6.0.10
       tailwindcss: 4.1.7
 
-  '@types/node@22.15.21':
+  '@types/node@22.16.5':
     dependencies:
       undici-types: 6.21.0
 
