@@ -1,9 +1,8 @@
-import { HtmlBasePlugin } from "@11ty/eleventy";
-
+import { HtmlBasePlugin } from '@11ty/eleventy'
 
 export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('switch-theme.js')
-	eleventyConfig.addPlugin(HtmlBasePlugin);
+  eleventyConfig.addPlugin(HtmlBasePlugin)
 
   return {
     dir: {

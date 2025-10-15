@@ -1,0 +1,52 @@
+name: Branch tests and linting
+
+on:
+  push:
+    branches-ignore:
+      - 'main'
+
+env:
+  VOLTA_FEATURE_PNPM: 1
+
+jobs:
+  deps:
+    runs-on: ubuntu-latest
+    name: 'Download and cache deps'
+    steps:
+      - uses: actions/checkout@v5
+      - uses: volta-cli/action@v4
+      - uses: actions/cache@v4
+        with:
+          path: ./node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('pnpm-lock.yaml') }}
+      - run: pnpm install --frozen-lockfile
+
+  lint:
+    needs: deps
+    runs-on: ubuntu-latest
+    name: Lint
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: volta-cli/action@v4
+      - uses: actions/cache@v4
+        with:
+          path: ./node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('pnpm-lock.yaml') }}
+      - run: pnpm lint
+
+  build:
+    needs: deps
+    runs-on: ubuntu-latest
+    name: build
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: volta-cli/action@v4
+      - uses: actions/cache@v4
+        with:
+          path: ./node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('pnpm-lock.yaml') }}
+      - run: pnpm build

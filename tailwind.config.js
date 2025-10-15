@@ -1,7 +1,7 @@
 module.exports = {
   theme: {
     extend: {
-      typography: ({ theme }) => ({
+      typography: () => ({
         themed: {
           css: {
             '--tw-prose-body': 'var(--theme-color-prose)',
