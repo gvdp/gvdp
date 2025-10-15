@@ -2,13 +2,13 @@ const themes = ['default', 'theme-doenker']
 
 window.onload = function () {
   const theme = localStorage.getItem('theme')
-  if(theme) {
+  if (theme) {
     const body = document.querySelector('body')
     body.setAttribute('data-theme', theme)
     body.classList.add(theme)
   }
 
-  document.getElementById('theme-toggle').addEventListener('click', function (el) {
+  document.getElementById('theme-toggle').addEventListener('click', function () {
     const body = document.querySelector('body')
     const currentTheme = body.getAttribute('data-theme')
 
