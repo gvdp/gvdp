@@ -4,11 +4,14 @@
   <title>{{ title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/tailwind.css'  }}" />
   <script src="/switch-theme.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet" />
 </head>
-<body class="default">
+<body class="default" data-theme="default">
   <button
     type="button"
-    class="fixed left-4 top-4 w-6 h-6 rounded-sm bg-primary text-secondary p-1 text-center active:animate-ping"
+    class="fixed left-4 top-4 w-6 h-6 rounded-sm bg-prose-secondary hover:bg-primary text-secondary p-1 text-center active:animate-ping"
     title="Change theme"
     id="theme-toggle"
   >
@@ -27,7 +30,7 @@
       />
     </svg>
   </button>
-  <div class="flex flex-col items-center justify-center min-h-screen py-2 bg-secondary">
-    <main class="flex flex-col items-center justify-around flex-1 container py-10 px-20">{{content}}</main>
-  </div>
+  <main class="flex flex-col items-center justify-center min-h-screen w-full bg-secondary">
+    <div class="flex flex-col items-center justify-around flex-1 container py-10 px-20">{{content}}</div>
+  </main>
 </body>

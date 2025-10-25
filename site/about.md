@@ -5,12 +5,16 @@ title: About Me
 
 # About Me
 
-A software engineer dedicated to crafting seamless digital experiences.
+A software engineer dedicated to building thoughtful digital experiences.
 
-I’m **Glenn**, a frontend developer hailing from Antwerp, with a passion for using Ember.js, React, and a dash of ingenuity. My journey in tech has taken me from a start in manual testing through test automation into building web applications that perform as well as they look.
+I'm **Glenn**, a frontend developer based in Antwerp. I work primarily with Ember.js and React, building web applications that are both functional and user-friendly. Over time, I've expanded into other areas of software development, including backend work—mainly with Laravel—giving me a more complete perspective on building full-stack applications.
 
-With a **Bachelor of Science in Physics** from _Universiteit Antwerpen_, I bring a strong analytical mindset to my work. My fascination with science and technology fuels my approach to problem-solving and innovation in software development. Whether I’m exploring complex algorithms or delving into the latest tech trends, my background in physics enhances my ability to think critically and creatively.
+My path into software development wasn't entirely straightforward. I started in manual testing, moved into test automation, and eventually found my way to frontend development—where I've been ever since. Along the way, I've worked with companies like Verhaert, Bagaar, and Ordina, handling everything from frontend and backend work to improving testing workflows.
 
-I’ve worked with companies like Verhaert, Bagaar and Ordina, tackling everything from frontend and backend development to streamlining and automating testing processes. When I’m not coding, you’ll likely find me strumming a guitar, hitting the soccer field, jogging through the beautiful streets of Antwerp, or soaking up the vibrant music scene at concerts.
+I have a **Bachelor of Science in Physics** from _Universiteit Antwerpen_, which probably explains why I tend to approach problems methodically and enjoy diving into technical challenges. The analytical thinking from my physics background still influences how I write code and solve problems today.
 
-Oh, and in case you’re wondering, yes—this "About" section was indeed co-written by a large language model. But hey, I provided all the substance; it just helped with the wording!
+Outside of work, I play guitar, play soccer, go for runs around Antwerp (just completed my second half marathon), and catch live music whenever I can.
+
+---
+
+<sub>Written with assistance from AI, because even developers need help with the words sometimes.</sub>

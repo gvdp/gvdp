@@ -28,9 +28,10 @@
   --color-prose: var(--theme-color-prose);
   --color-prose-secondary: var(--theme-color-prose-secondary);
 
+  --shadow-color: transparent;
+
   /* todo: these are all system fonts, possibly add another local or web font */
   --font-serif: 'ui-serif, "Times New Roman", serif';
-  --font-mono: '"Nimbus Mono PS", "Courier New", monospace';
   --font-sans: 'Optima, Candara, "Noto Sans", source-sans-pro, sans-serif';
 }
 
@@ -48,18 +49,37 @@
 
 @layer base {
   .default {
-    --theme-color-primary: #0d9488;
+    --theme-color-primary: #186d66;
     --theme-color-secondary: #bae6fd;
     --theme-color-prose: #475569;
     --theme-color-prose-secondary: #0f172a;
+
+    --font-mono: '"Nimbus Mono PS", "Courier New", monospace';
   }
 
   .theme-doenker {
     --theme-color-primary: #e0f2fe;
     --theme-color-secondary: #155e75;
     --theme-color-prose: #e2e8f0;
-    --theme-color-prose-secondary: #1f2937;
+    --theme-color-prose-secondary: #bed3f0;
+
+    --font-mono: '"Nimbus Mono PS", "Courier New", monospace';
   }
+
+  .theme-matrix {
+    --theme-color-primary: #00ff41;
+    --theme-color-secondary: #0d0208;
+    --theme-color-prose: #00ff41;
+    --theme-color-prose-secondary: #008f11;
+
+    --theme-shadow-color: #ffffff;
+
+    --font-mono: 'Share Tech', sans-serif;
+  }
+}
+
+svg#initials {
+  filter: drop-shadow(0px 0px 5px var(--theme-shadow-color));
 }
 
 .prose h1,

@@ -10,7 +10,7 @@ title: Resume
 
 <!-- todo: make this the envelope emoji -->
 
-📬 [vdputteglenn@gmail.com](mailto:vdputteglenn@gmail.com)
+✉️ [vdputteglenn@gmail.com](mailto:vdputteglenn@gmail.com)
 
 🔗 [LinkedIn](https://www.linkedin.com/in/glenn-van-de-putte)
 
@@ -31,7 +31,7 @@ Experienced **Software Engineer** with a strong background in the information te
 ### **Verhaert | Digital Innovation (Formerly Bagaar)**
 
 **Frontend Developer**  
-_December 2021 - Present (2 years 11 months)_  
+_December 2021 - Present (3 years)_  
 📍 _Antwerp, Flemish Region, Belgium_
 
 - 🚀 Developing and maintaining high-quality frontend applications using **Ember.js**.
@@ -141,8 +141,12 @@ Developed a web app to estimate users' carbon footprints based on daily activiti
 - **Music**: Passionate about playing the guitar, especially blues and rock.
 - **Soccer**: Active player and volunteer, involved in event organization and website management for the local soccer team.
 - **IOT / 3D Printing**: Interested in creating simple improvements for my own modest smart home
-<!-- - **Sustainability**: Interested in technology solutions for climate change and eco-friendly initiatives.   -->
+- **Sustainability**: Interested in technology solutions for climate change and eco-friendly initiatives.
 
 ---
 
 > _"Coding is not just about creating software; it's about crafting experiences and solving problems."_ – **Glenn Van De Putte - ChatGPT**
+
+---
+
+<sub>Written with assistance from AI, because even developers need help with the words sometimes.</sub>

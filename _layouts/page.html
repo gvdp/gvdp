@@ -2,4 +2,12 @@
 layout: layout.html
 ---
 
-<section class="prose prose-themed text-prose font-mono max-w-[800px]">{{content}}</section>
+<a href="{{ site.baseurl }}/" class="text-sm text-prose-secondary hover:text-primary mb-4 inline-block self-start"
+  >&larr; Home</a
+>
+
+<section
+  class="prose prose-themed prose-a:text-primary prose-blockquote:text-prose-secondary text-prose font-mono max-w-[800px]"
+>
+  {{content}}
+</section>
