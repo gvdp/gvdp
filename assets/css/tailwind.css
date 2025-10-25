@@ -2,12 +2,16 @@
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
     --spacing: 0.25rem;
+    --text-sm: 0.875rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
     --radius-sm: 0.25rem;
     --animate-spin: spin 1s linear infinite;
     --animate-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
     --default-font-family: 'Optima, Candara, "Noto Sans", source-sans-pro, sans-serif';
-    --default-mono-font-family: '"Nimbus Mono PS", "Courier New", monospace';
+    --default-mono-font-family: var(--font-mono);
   }
 }
 @layer base {
@@ -603,11 +607,17 @@
       margin-bottom: 0;
     }
   }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
   .contents {
     display: contents;
   }
   .flex {
     display: flex;
+  }
+  .inline-block {
+    display: inline-block;
   }
   .h-6 {
     height: calc(var(--spacing) * 6);
@@ -620,6 +630,9 @@
   }
   .w-6 {
     width: calc(var(--spacing) * 6);
+  }
+  .w-full {
+    width: 100%;
   }
   .max-w-\[800px\] {
     max-width: 800px;
@@ -642,14 +655,17 @@
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
+  .self-start {
+    align-self: flex-start;
+  }
   .overflow-hidden {
     overflow: hidden;
   }
   .rounded-sm {
     border-radius: var(--radius-sm);
   }
-  .bg-primary {
-    background-color: var(--theme-color-primary);
+  .bg-prose-secondary {
+    background-color: var(--theme-color-prose-secondary);
   }
   .bg-secondary {
     background-color: var(--theme-color-secondary);
@@ -660,9 +676,6 @@
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
   }
-  .py-2 {
-    padding-block: calc(var(--spacing) * 2);
-  }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
@@ -670,13 +683,20 @@
     text-align: center;
   }
   .font-mono {
-    font-family: '"Nimbus Mono PS", "Courier New", monospace';
+    font-family: var(--font-mono);
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
   }
   .text-primary {
     color: var(--theme-color-primary);
   }
   .text-prose {
     color: var(--theme-color-prose);
+  }
+  .text-prose-secondary {
+    color: var(--theme-color-prose-secondary);
   }
   .text-secondary {
     color: var(--theme-color-secondary);
@@ -693,6 +713,27 @@
       }
     }
   }
+  .hover\:bg-primary {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--theme-color-primary);
+      }
+    }
+  }
+  .hover\:text-primary {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--theme-color-primary);
+      }
+    }
+  }
+  .hover\:underline {
+    &:hover {
+      @media (hover: hover) {
+        text-decoration-line: underline;
+      }
+    }
+  }
   .active\:animate-ping {
     &:active {
       animation: var(--animate-ping);
@@ -701,6 +742,16 @@
   .md\:w-2\/3 {
     @media (width >= 48rem) {
       width: calc(2/3 * 100%);
+    }
+  }
+  .prose-a\:text-primary {
+    & :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+      color: var(--theme-color-primary);
+    }
+  }
+  .prose-blockquote\:text-prose-secondary {
+    & :is(:where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+      color: var(--theme-color-prose-secondary);
     }
   }
 }
@@ -720,17 +771,30 @@
 }
 @layer base {
   .default {
-    --theme-color-primary: #0d9488;
+    --theme-color-primary: #186d66;
     --theme-color-secondary: #bae6fd;
     --theme-color-prose: #475569;
     --theme-color-prose-secondary: #0f172a;
+    --font-mono: '"Nimbus Mono PS", "Courier New", monospace';
   }
   .theme-doenker {
     --theme-color-primary: #e0f2fe;
     --theme-color-secondary: #155e75;
     --theme-color-prose: #e2e8f0;
-    --theme-color-prose-secondary: #1f2937;
+    --theme-color-prose-secondary: #bed3f0;
+    --font-mono: '"Nimbus Mono PS", "Courier New", monospace';
   }
+  .theme-matrix {
+    --theme-color-primary: #00ff41;
+    --theme-color-secondary: #0d0208;
+    --theme-color-prose: #00ff41;
+    --theme-color-prose-secondary: #008f11;
+    --theme-shadow-color: #ffffff;
+    --font-mono: 'Share Tech', sans-serif;
+  }
+}
+svg#initials {
+  filter: drop-shadow(0px 0px 5px var(--theme-shadow-color));
 }
 .prose h1, h2, h3, h4, h5, h6 {
   font-family: 'ui-serif, "Times New Roman", serif';

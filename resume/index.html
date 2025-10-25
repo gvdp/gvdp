@@ -4,20 +4,26 @@
   <title>Resume</title>
   <link rel="stylesheet" href="/gvdp/assets/css/tailwind.css">
   <script src="/gvdp/switch-theme.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
 </head>
-<body class="default">
-  <button type="button" class="fixed left-4 top-4 w-6 h-6 rounded-sm bg-primary text-secondary p-1 text-center active:animate-ping" title="Change theme" id="theme-toggle">
+<body class="default" data-theme="default">
+  <button type="button" class="fixed left-4 top-4 w-6 h-6 rounded-sm bg-prose-secondary hover:bg-primary text-secondary p-1 text-center active:animate-ping" title="Change theme" id="theme-toggle">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="hover:animate-spin">
       <path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"></path>
     </svg>
   </button>
-  <div class="flex flex-col items-center justify-center min-h-screen py-2 bg-secondary">
-    <main class="flex flex-col items-center justify-around flex-1 container py-10 px-20">
-<section class="prose prose-themed text-prose font-mono max-w-[800px]"><h1><strong>Glenn Van De Putte</strong></h1>
+  <main class="flex flex-col items-center justify-center min-h-screen w-full bg-secondary">
+    <div class="flex flex-col items-center justify-around flex-1 container py-10 px-20">
+<a href="/gvdp/" class="text-sm text-prose-secondary hover:text-primary mb-4 inline-block self-start">&larr; Home</a>
+
+<section class="prose prose-themed prose-a:text-primary prose-blockquote:text-prose-secondary text-prose font-mono max-w-[800px]">
+  <h1><strong>Glenn Van De Putte</strong></h1>
 <p><strong>🌐 Frontend Developer</strong><br>
 📍 <em>Antwerp, Belgium</em></p>
 <!-- todo: make this the envelope emoji -->
-<p>📬 <a href="mailto:vdputteglenn@gmail.com">vdputteglenn@gmail.com</a></p>
+<p>✉️ <a href="mailto:vdputteglenn@gmail.com">vdputteglenn@gmail.com</a></p>
 <p>🔗 <a href="https://www.linkedin.com/in/glenn-van-de-putte">LinkedIn</a></p>
 <p>🌍 <a href="https://www.gvdp.be">Personal Website</a></p>
 <p>👨‍💻 <a href="https://github.com/gvdp">Github Profile</a></p>
@@ -28,7 +34,7 @@
 <h2>💼 <strong>Experience</strong></h2>
 <h3><strong>Verhaert | Digital Innovation (Formerly Bagaar)</strong></h3>
 <p><strong>Frontend Developer</strong><br>
-<em>December 2021 - Present (2 years 11 months)</em><br>
+<em>December 2021 - Present (3 years)</em><br>
 📍 <em>Antwerp, Flemish Region, Belgium</em></p>
 <ul>
 <li>🚀 Developing and maintaining high-quality frontend applications using <strong>Ember.js</strong>.</li>
@@ -123,13 +129,16 @@ Developed a web app to estimate users' carbon footprints based on daily activiti
 <li><strong>Music</strong>: Passionate about playing the guitar, especially blues and rock.</li>
 <li><strong>Soccer</strong>: Active player and volunteer, involved in event organization and website management for the local soccer team.</li>
 <li><strong>IOT / 3D Printing</strong>: Interested in creating simple improvements for my own modest smart home</li>
+<li><strong>Sustainability</strong>: Interested in technology solutions for climate change and eco-friendly initiatives.</li>
 </ul>
-<!-- - **Sustainability**: Interested in technology solutions for climate change and eco-friendly initiatives.   -->
 <hr>
 <blockquote>
 <p><em>&quot;Coding is not just about creating software; it's about crafting experiences and solving problems.&quot;</em> – <strong>Glenn Van De Putte - ChatGPT</strong></p>
 </blockquote>
+<hr>
+<p><sub>Written with assistance from AI, because even developers need help with the words sometimes.</sub></p>
+
 </section>
-</main>
-  </div>
+</div>
+  </main>
 </body>
