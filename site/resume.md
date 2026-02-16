@@ -18,19 +18,19 @@ title: Resume
 
 ---
 
-## 📝 **Summary**
+## **Summary**
 
-Experienced **Software Engineer** with a strong background in the information technology and services industry, specializing in **frontend development** using any client side Javascript framework (mainly Ember.js, React, Angular, ...). Passionate about building user-centric digital solutions, optimizing software processes, and solving complex problems. Aspiring to join a company with a clear mission, particularly those focused on **sustainability**, **climate change**, or **social impact**. Seeking **hybrid work opportunities** that combine hands-on coding with collaboration across cross-functional teams. Holds a **Bachelor of Science (B.S.) in Physics** from _Universiteit Antwerpen_.
+Experienced **Full Stack Software Developer** with a strong background in the information technology and services industry, specializing in **frontend development** using any client side Javascript framework (mainly Ember.js, React, Angular, ...). Passionate about building user-centric digital solutions, optimizing software processes, and solving complex problems.
 
 ---
 
-## 💼 **Experience**
+## **Experience**
 
 ### **Verhaert | Digital Innovation (Formerly Bagaar)**
 
 **Frontend Developer**  
 _December 2021 - Present (4 years)_  
-📍 _Antwerp, Flemish Region, Belgium_
+📍 _Antwerp, Belgium_
 
 - Developing and maintaining high-quality frontend applications using **Ember.js**.
 - Assisting in developing features in **Laravel** backend services.
@@ -46,7 +46,7 @@ _January 2018 - November 2021 (3 years 11 months)_
 
 **Test Engineer**  
 _August 2014 - January 2018 (3 years 6 months)_  
-📍 _Mechelen_
+📍 _Mechelen, Belgium_
 
 - Executed **automated regression testing** using various tools and frameworks.
 - Designed test scripts, which improved test coverage and reduced bugs in production.
@@ -62,33 +62,31 @@ _May 2013 - July 2014 (1 year 3 months)_
 
 ---
 
-## 🛠️ **Technical Skills**
+## **Technical Skills**
 
-- **Programming Languages**: JavaScript, TypeScript, PHP, Java
 - **Frontend Development**: Ember.js, Angular, React, Vue.js
+- **Programming Languages**: JavaScript, TypeScript, PHP, Java
 - **Backend Development**: Spring Boot, Node.js, Laravel
-- **Cloud Services**: AWS, Azure
 - **DevOps & CI/CD**: Jenkins, Docker, Gitlab, Github Actions
 - **Testing & QA**: Selenium, Cypress, Jest, Automated Regression Testing
+- **Cloud Services**: AWS, Azure
 - **Project Management Tools**: Jira, Trello, Slack
 
 ---
 
-## 🎓 **Education**
+## **Education**
 
 ### **Universiteit Antwerpen**
 
-**Bachelor of Science (B.S.), Physics**  
-📅 _2008 - 2012_
+**Bachelor of Science (B.S.), Physics** (2012)
 
 ### **Moretus Ekeren**
 
-**Latin - Maths**  
-📅 _2002 - 2008_
+**Latin - Maths** (2008)
 
 ---
 
-## 🏆 **Certifications**
+## **Certifications**
 
 - ISTQB - BCS Certified Tester Foundation Level
 - TMap Next Test Engineer
@@ -97,7 +95,7 @@ _May 2013 - July 2014 (1 year 3 months)_
 
 ---
 
-## 🌍 **Languages**
+## **Languages**
 
 - **English**: _Full Professional Proficiency_
 - **Dutch**: _Native or Bilingual Proficiency_
@@ -105,17 +103,13 @@ _May 2013 - July 2014 (1 year 3 months)_
 
 ---
 
-## 🎸 **Interests**
+## **Additional Interests**
 
 - **Music**: Passionate about playing the guitar, especially blues and rock.
 - **Soccer**: Active player and volunteer, involved in event organization and website management for the local soccer team.
 - **Running**: Recently finished a second half marathon.
 - **IOT / 3D Printing**: Interested in creating simple improvements for my own modest smart home
 - **Sustainability**: Interested in technology solutions for climate change and eco-friendly initiatives.
-
----
-
-> _"Coding is not just about creating software; it's about crafting experiences and solving problems."_ – **Glenn Van De Putte - ChatGPT**
 
 ---
 
