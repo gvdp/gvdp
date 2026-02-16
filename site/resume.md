@@ -40,6 +40,7 @@ _December 2021 - Present (4 years)_
 
 **Software Developer**  
 _January 2018 - November 2021 (3 years 11 months)_
+📍 _Mechelen, Belgium_
 
 - Developed scalable software solutions using **Spring Boot**, and **Angular**.
 - Automated processes and build steps using CI tools like **Jenkins**, reducing manual testing time and enhancing team efficiency.
