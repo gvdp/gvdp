@@ -17,7 +17,7 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v7.0.0
-      - uses: volta-cli/action@v4.2.1
+      - uses: volta-cli/action@v5.0.0
       - uses: actions/cache@v6.0.0
         with:
           path: ./node_modules
