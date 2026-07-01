@@ -20,7 +20,7 @@
     "@11ty/eleventy": "3.1.6",
     "@tailwindcss/postcss": "4.3.1",
     "animejs": "4.5.0",
-    "postcss": "8.5.15",
+    "postcss": "8.5.16",
     "tailwindcss": "4.3.1"
   },
   "packageManager": "pnpm@9.5.0",
@@ -38,7 +38,7 @@
     "globals": "17.7.0",
     "husky": "9.1.7",
     "lint-staged": "17.0.8",
-    "prettier": "3.9.0"
+    "prettier": "3.9.1"
   },
   "type": "module",
   "lint-staged": {
