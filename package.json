@@ -31,14 +31,14 @@
   "devDependencies": {
     "@tailwindcss/cli": "4.3.2",
     "@tailwindcss/typography": "0.5.20",
-    "@types/node": "24.13.2",
+    "@types/node": "24.13.3",
     "concurrently": "10.0.3",
-    "eslint": "9.39.4",
+    "eslint": "9.39.5",
     "eslint-plugin-import": "2.32.0",
     "globals": "17.7.0",
     "husky": "9.1.7",
     "lint-staged": "17.0.8",
-    "prettier": "3.9.4"
+    "prettier": "3.9.5"
   },
   "type": "module",
   "lint-staged": {
