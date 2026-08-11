@@ -20,7 +20,7 @@
     "@11ty/eleventy": "3.1.6",
     "@tailwindcss/postcss": "4.3.3",
     "animejs": "4.5.0",
-    "postcss": "8.5.25",
+    "postcss": "8.5.26",
     "tailwindcss": "4.3.3"
   },
   "packageManager": "pnpm@9.5.0",
