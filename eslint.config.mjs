@@ -1,13 +1,13 @@
 import js from '@eslint/js'
+import { defineConfig, globalIgnores } from 'eslint/config'
 import globals from 'globals'
 
-export default [
-  {
-    ignores: ['.netlify/**', 'dist/**'],
-  },
-  js.configs.recommended,
+export default defineConfig([
+  globalIgnores(['.netlify/**', 'dist/**', '_site/**']),
   {
     files: ['**/*.{js,mjs,cjs}'],
+    plugins: { js },
+    extends: ['js/recommended'],
     languageOptions: {
       globals: {
         ...globals.browser,
@@ -22,4 +22,4 @@ export default [
       },
     },
   },
-]
+])
