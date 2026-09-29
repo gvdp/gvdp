@@ -31,7 +31,7 @@
   "devDependencies": {
     "@tailwindcss/cli": "4.3.3",
     "@tailwindcss/typography": "0.5.20",
-    "@types/node": "24.13.3",
+    "@types/node": "24.19.0",
     "concurrently": "10.0.5",
     "eslint": "9.39.5",
     "eslint-plugin-import": "2.32.0",
