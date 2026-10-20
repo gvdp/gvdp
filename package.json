@@ -17,10 +17,10 @@
     "start": "concurrently \"pnpm:dev:*\""
   },
   "dependencies": {
-    "@11ty/eleventy": "3.1.6",
+    "@11ty/eleventy": "3.1.7",
     "@tailwindcss/postcss": "4.3.3",
     "animejs": "4.5.0",
-    "postcss": "8.5.29",
+    "postcss": "8.5.30",
     "tailwindcss": "4.3.3"
   },
   "packageManager": "pnpm@9.5.0",
