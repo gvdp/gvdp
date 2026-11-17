@@ -20,12 +20,12 @@
     "@11ty/eleventy": "3.1.8",
     "@tailwindcss/postcss": "4.3.5",
     "animejs": "4.5.0",
-    "postcss": "8.5.32",
+    "postcss": "8.5.33",
     "tailwindcss": "4.3.5"
   },
   "packageManager": "pnpm@9.5.0",
   "volta": {
-    "node": "26.13.0",
+    "node": "26.13.1",
     "pnpm": "9.5.0"
   },
   "devDependencies": {
